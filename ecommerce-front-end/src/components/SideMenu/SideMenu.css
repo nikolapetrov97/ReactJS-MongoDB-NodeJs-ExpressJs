@@ -1,0 +1,35 @@
+.sidemenu {
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    height: 100%;
+    font-size: 1.2em;
+    /* background-color: red; */
+    margin-right: 2em;
+}
+
+.linkWrapper i{
+    float: right;
+    color: black;
+    display: inline;
+    vertical-align: middle;
+}
+
+.linkWrapper{
+    text-decoration: none;
+    color: black;
+    margin-right: 5%;
+    margin-left: 0%;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    box-sizing:border-box;
+    transition: 0.05s ease;
+    
+}
+
+.linkWrapper:hover {
+    box-shadow: 0 6px 18px 0 rgba(#000, 0.1);
+    
+    background-color: rgb(36, 182, 0);
+
+}

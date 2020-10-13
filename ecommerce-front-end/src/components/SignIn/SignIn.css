@@ -1,0 +1,101 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Galada';
+
+.signin{
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background:url("../../images/thought-catalog-9aOswReDKPo-unsplash.jpg")  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+  }
+  
+  .box h2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .box .inputBox {
+    position: relative;
+  }
+  .box .inputBox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    Letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  
+  .box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    Letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .box .inputBox input:focus ~ label,
+  .box .inputBox input:focus ~ label{
+    top: -18px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 12px;
+  }
+  
+  .box input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #006c9e;
+    padding: 10px 20px;
+    margin-left: 9em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .register {
+      margin-top: 1em;
+      color:white;
+      opacity: 0.8;
+  }
+
+  .signuplabel{
+    list-style: none;
+    color:white;
+}
+@media(max-width: 720px){
+	.box {
+		width: 80%;
+	}
+}

@@ -1,0 +1,70 @@
+.lowernavwrapper {
+    background-image: linear-gradient(to right, #24ad00, #22b507, #1fbe0f, #1ac616, #13cf1c, #13cf1c, #13cf1c, #13cf1c, #1ac616, #1fbe0f, #22b507, #24ad00);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    
+
+}
+
+.link {
+  text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+span{
+    color: white;
+}
+
+.category {
+   
+    text-decoration: none;
+}
+
+i {
+   margin-right: 0.2em;
+}
+
+                             /* SEARCHBAR COMPONENT */
+
+.searchbarinputlower {
+    border: 2px solid #077971;
+    border-radius: 30px;
+    height: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: #3D3D3C;
+    font-weight: 400;
+    padding-left: 1rem;
+    padding-right: 10px;
+    width: 85%;
+  }
+
+  .searchbarinputlower:focus {
+    outline: none;
+  }
+
+  .searchbarbuttonlower {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 18px;
+    color: #01A093;
+    position: relative;
+    right: 48px;
+    top: 1px;
+    cursor: pointer;
+  }
+
+  .searchbarbuttonlower:hover {
+    color: rgb(255, 217, 0);
+  }
+
+  .searchbarbuttonlower:focus {
+    outline: none;
+  }
