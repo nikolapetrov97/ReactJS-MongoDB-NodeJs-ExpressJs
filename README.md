@@ -7,6 +7,8 @@ Product images are on my local storage - in order to see product images you need
 <img src="ecommerce-front-end/githubimages/Signin.png" width="620">
 <img src="ecommerce-front-end/githubimages/Cart.png" width="620">
 <img src="ecommerce-front-end/githubimages/ResponsiveNavBar.png" width="620">
+<img src="ecommerce-front-end/githubimages/AdminProduct.png" width="620">
+<img src="ecommerce-front-end/githubimages/AdminCategory.png" width="620">
 
 ## Installation
 
